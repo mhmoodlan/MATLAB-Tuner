@@ -12,7 +12,7 @@ clc
         
         
         xfft = Fs*(0:nfft2/2-1)/nfft2;
-        x = xfft(find(abs(fftSig2) == max(abs(fftSig2)), 1)); % the curresponding element of the max in the xfft array is our frequency
+        x = xfft(find(abs(fftSig2) == max(abs(fftSig2)), 1)); % the corresponding element of the max in the xfft array is our frequency
 
     C5 = 523.25;
     CSharp5 = 554.36;
